@@ -14,7 +14,7 @@ public class PayProducer {
 
     public PayProducer(){
         this.producer = new DefaultMQProducer(producerGroup);
-        producer.setRetryTimesWhenSendAsyncFailed(0);
+        producer.setRetryTimesWhenSendFailed(0);
         producer.setNamesrvAddr(JmsConfig.nameServerAddr);
         start();
     }
