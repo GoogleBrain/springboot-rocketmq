@@ -15,7 +15,7 @@ import java.rmi.server.ExportException;
 import java.util.Date;
 import java.util.List;
 
-@Component
+//@Component
 public class PayConsumer {
 
     private String consumerGroup = "pay_consumer_group";

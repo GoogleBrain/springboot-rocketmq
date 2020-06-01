@@ -8,7 +8,10 @@ public class JmsConfig {
 
 //    public static  String nameServerAddr="192.168.1.16:9876";
 
-      public static  String nameServerAddr="192.168.1.16:9876;192.168.1.17:9876;;192.168.1.18:9876;;192.168.1.19:9876";
+    //public static  String nameServerAddr="192.168.1.16:9876;192.168.1.17:9876;192.168.1.18:9876;;192.168.1.19:9876";
+
+
+    public static  String nameServerAddr="192.168.1.16:9876;192.168.1.17:9876";
 
 
 

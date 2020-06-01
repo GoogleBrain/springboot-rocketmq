@@ -31,7 +31,7 @@ public class PayController {
 
     @RequestMapping("api/v1/pay_cb")
     public Object callback(String text) {
-        Message message = new Message(JmsConfig.topic2, "tag1", "777", ("hello " + text).getBytes());
+        Message message = new Message("hudaxian", "tag1", "777", ("hello " + text).getBytes());
         SendResult send = null;
 
         /**
